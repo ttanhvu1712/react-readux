@@ -1,6 +1,7 @@
 import React from 'react';
 import ReacDOM from 'react-dom';
 import Seasons from './components/Seasons'
+import Spiner from './components/Spiner'
 
 class App extends React.Component {
   state = { lat: null, error: ''}
@@ -12,13 +13,21 @@ class App extends React.Component {
     )
   }
 
-  render() {
+  renderContent() {
     const {lat, error} = this.state;
     if(lat && error === '')
       return ( <Seasons lat={lat}/> )
     else if(!lat && error !== '')
       return ( <div> error: {error} </div> )
-    else return ( <div> loading </div>)
+    else return ( <Spiner message="Please accept location request"/> )
+  }
+
+  render() {
+    return (
+      <div style={{border:"1px red"}}>
+        { this.renderContent() }
+      </div>
+    )
   }
 }
 
