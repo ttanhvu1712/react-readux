@@ -1,8 +1,5 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
+import postReducers from './postReducer';
+import usersReducers from './usersReducer';
 
-// Reducer
-const fakeReducer = () => {
-  return 0;
-}
-
-export default combineReducers({ fakeReducer })
+export default combineReducers({ posts: postReducers, users: usersReducers })
