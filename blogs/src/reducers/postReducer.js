@@ -1,6 +1,7 @@
 export default (posts = [], action) => {
+    // console.log(posts);
     switch(action.type) {
-        case 'FECTCH_POSTS':
+        case 'FETCH_POSTS':
             return action.payload;
         default:
             return posts

@@ -1,6 +1,7 @@
 export default (users = [], action) => {
+    // console.log(users);
     switch(action.type) {
-        case 'FECTCH_USER':
+        case 'FETCH_USER':
             return [...users, action.payload];
         default:
             return users
