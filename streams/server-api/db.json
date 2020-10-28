@@ -1,14 +1,28 @@
 {
   "streams": [
     {
-      "title": "A new stream",
-      "description": "Here's some stream",
+      "title": "Hello",
+      "description": "hell yay",
+      "userId": "117323848358098333955",
       "id": 1
     },
     {
-      "title": "Another stream",
-      "description": "Hahaha",
+      "title": "Hello 2",
+      "description": "hell yay 2",
+      "userId": "117323848358098312233",
       "id": 2
+    },
+    {
+      "title": "Test history",
+      "description": "Test history",
+      "userId": "117323848358098333955",
+      "id": 3
+    },
+    {
+      "title": "Ha ha",
+      "description": "Loloaaa",
+      "userId": "117323848358098333955",
+      "id": 4
     }
   ]
 }
