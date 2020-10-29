@@ -1,28 +1,16 @@
 {
   "streams": [
     {
-      "title": "Hello",
-      "description": "hell yay",
-      "userId": "117323848358098333955",
+      "title": "Hello 1",
+      "description": "Hello yay 1",
+      "userId": "117323848358098333933",
       "id": 1
     },
     {
       "title": "Hello 2",
-      "description": "hell yay 2",
-      "userId": "117323848358098312233",
+      "description": "Hello yay 2",
+      "userId": "117323848358098333955",
       "id": 2
-    },
-    {
-      "title": "Test history",
-      "description": "Oko",
-      "userId": "117323848358098333955",
-      "id": 3
-    },
-    {
-      "title": "Ha ha",
-      "description": "Lola anh vu",
-      "userId": "117323848358098333955",
-      "id": 4
     }
   ]
 }
