@@ -4,7 +4,7 @@ import ColorContext from "../contexts/ColorContext";
 
 export default class Button extends Component {
   renderValue = (value) => {
-    return value === "english" ? "Submit" : "Voorleggen";
+    return value.language === "english" ? "Submit" : "Voorleggen";
   }
 
   renderButton = (color) => {
